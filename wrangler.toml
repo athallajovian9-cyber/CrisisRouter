@@ -1,0 +1,9 @@
+# Cloudflare Pages deployment for CrisisRouter
+# Static export of the Next.js app for crisis resource routing.
+#   wrangler pages deploy . --project-name=crisis-router
+# Nothing secret lives here. The account id and API token go in the environment
+# (CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN), never in this file.
+
+name = "crisis-router"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "out"
